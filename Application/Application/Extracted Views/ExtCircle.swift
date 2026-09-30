@@ -8,9 +8,9 @@
 internal import SwiftUI
 
 struct ExtCircle: View {
-    
+
     @State var randomIndex: Int = Int.random(in: 0...9)
-    
+
     var circlelabel: CircleLabel
     var body: some View {
         NavigationLink {
@@ -23,13 +23,13 @@ struct ExtCircle: View {
                     .momoSignature(size: 32)                    .foregroundStyle(.white)
             }.frame(height:200)
                 .shadow(color: circlelabel.color, radius: 0.5)
-                
+
         }.offset(x: CGFloat(circlelabel.axex), y: CGFloat(circlelabel.axey))
 
             .onAppear {
                 randomIndex = Int.random(in: 0...9)
             }
-        
+
     }
 }
 

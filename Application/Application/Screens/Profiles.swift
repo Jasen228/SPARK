@@ -16,7 +16,7 @@ struct Profiles: View {
                     .ignoresSafeArea()
 
                 VStack {
-                    
+
                     Text("Ma Famille")
                         .momoSignature(size: 40)
                         .foregroundStyle(
@@ -28,7 +28,7 @@ struct Profiles: View {
                                 startPoint: .topTrailing,
                                 endPoint: .bottomLeading
                             ))
-                    
+
                     LazyHGrid(rows: rows, spacing: 40) {
 
                         ForEach(dataProfile) {

@@ -32,4 +32,3 @@ struct ExtLibre: View {
 #Preview {
     ExtLibre(creativity: dataCreativity[0])
 }
-

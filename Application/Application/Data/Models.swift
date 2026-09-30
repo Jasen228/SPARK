@@ -29,7 +29,7 @@ enum Materials : String {
     case tubecolle = "Tube de colle"
     case boiteamouchoirs = "Boîte de mouchoirs vide"
     case aucun = "Aucun"
-    
+
 }
 
 //Modèle pour les catégories
@@ -75,7 +75,7 @@ struct CircleLabel: Identifiable  {
     let axex: Int
     let axey: Int
     let category: Category
-} 
+}
 
 // Modèle Enfant
 struct Enfant {

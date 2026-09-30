@@ -1,15 +1,15 @@
 
-        
+
 internal import Foundation
 internal import SwiftUI
 
 //Fonction filtrante catégorie par créativité
 func filteredCreativityByCategory(category: Category) -> [Creativity] {
-    
+
     let filteredCreativity = dataCreativity.filter { data in
         data.category == category
     }
-    
+
     return filteredCreativity
 }
 
@@ -34,11 +34,11 @@ func getCategoryColor(for category: Category) -> Color {
 
 //Fonction récupération photos par album
 func filteredAlbumByChild(child: Profile) -> [Album] {
-    
+
     let fitleredAlbum = dataAlbum.filter { data in
-        
+
         data.childName.id == child.id
     }
-    
+
     return fitleredAlbum
 }

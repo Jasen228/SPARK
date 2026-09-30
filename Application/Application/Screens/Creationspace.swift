@@ -30,19 +30,19 @@ struct CreationSpaceView: View {
                                 )
                             )
                             .offset(y: 120)
-                    
+
 //                    Text("SPARK !")
 //                        .momoSignature(size: 40)
-//                    
+//
                     ForEach(dataCircle) {
                         circlelabel in
 
                         ExtCircle(circlelabel: circlelabel)
 
                     }
-             
+
                 }
-                
+
             }
 
         }
@@ -66,13 +66,13 @@ struct CreationSpaceView: View {
                      .frame(maxWidth: .infinity)
                      .padding(.top, 20)
                      .padding(.bottom, 10)
-                 
+
                  Spacer()
-                 
+
                  ForEach(dataCircle) {
                      circlelabel in
                      ExtCircle(circlelabel: circlelabel)
                  }
-                 
+
                  Spacer()
  */

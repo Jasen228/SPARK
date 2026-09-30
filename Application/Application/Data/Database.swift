@@ -8,7 +8,7 @@
 internal import SwiftUI
 
 var dataCreativity : [Creativity] = [
-    
+
 //REFLEXION
 
 Creativity(category: .reflexion, activityName: "La chaîne des questions", description:"Répondre à une question et en créer une nouvelle à partir de la réponse.", materials: [.feuillepapier, .crayon], fore: .redSpark, back: .backSpark, isWithParent: true),
@@ -92,7 +92,7 @@ var dataCircle: [CircleLabel] = [
     CircleLabel(text: "Réflexion", color: .redSpark, axex: -100, axey: 130, category: .reflexion),
     CircleLabel(text: "Intuition", color: .blueSpark, axex: 100, axey: -80, category: .intuition),
     CircleLabel(text: "Création", color: .yellowSpark, axex: 0, axey: -110, category: .creation),
-] 
+]
 
 //PHOTOS
 var images: [PhotoItem] = [

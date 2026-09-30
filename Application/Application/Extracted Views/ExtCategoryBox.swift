@@ -9,7 +9,7 @@ internal import SwiftUI
 
 struct ExtCategoryBox: View {
     let category: Category
-    
+
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             Text(category.rawValue)
@@ -18,7 +18,7 @@ struct ExtCategoryBox: View {
                 .foregroundStyle(getCategoryColor(for: category))
                 .padding(.horizontal, 16)
                 .padding(.top, 8)
-            
+
             VStack(spacing: 8) {
                 ForEach(filteredCreativityByCategory(category: category)) { creativity in
                     NavigationLink {

@@ -18,7 +18,7 @@ struct EditableAlbumView: View {
                         LinearGradient(colors: [.redSpark, .blueSpark, .yellowSpark, .greenSpark], startPoint: .topTrailing, endPoint: .bottomLeading))
                     //.font(.title2)
                     .padding(.top, 40)
-                    
+
 
                 // Grille d’images
                 LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 20) {
@@ -38,13 +38,13 @@ struct EditableAlbumView: View {
 
                 Spacer()
 
-              
+
                 .padding()
                 .background(Color(.backSpark))
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color(.backSpark))
-        
+
         }
     }
 }
@@ -72,7 +72,7 @@ var body: some View {
         .navigationTitle("")
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(Color .backSpark)
-        
+
     }
 }
 

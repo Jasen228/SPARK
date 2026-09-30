@@ -14,7 +14,7 @@ struct ExtLibreEnfant: View {
         ZStack {
             Color(creativity.back)
                 .ignoresSafeArea()
-            
+
             VStack {
                 Spacer ()
                 Text(creativity.activityName)
@@ -25,7 +25,7 @@ struct ExtLibreEnfant: View {
                     .multilineTextAlignment(.center)
                     .padding(.bottom)
                     .padding()
-                
+
                 ScrollView{
                     VStack(alignment: .leading) {
                         Spacer()
@@ -35,8 +35,8 @@ struct ExtLibreEnfant: View {
                             .momoSignature(size: 23)                        }
                         Divider()
                         ForEach(creativity.materials, id: \.self) { material in
-                            
-                            
+
+
                             HStack {
                                 Image("\(material)")
                                     .resizable()
@@ -56,11 +56,11 @@ struct ExtLibreEnfant: View {
                         Divider()
                         Text(creativity.description)
                             .momoTrust(size: 20)
-                            
+
                         Spacer()
-                        
+
                     }
-                    
+
                 }
                 .foregroundStyle(.white)
                 .padding()
@@ -70,9 +70,9 @@ struct ExtLibreEnfant: View {
                 .background(creativity.fore.opacity(0.7))
                 .cornerRadius(32)
                 .padding()
-                
-                
-                
+
+
+
             }
         }
     }
