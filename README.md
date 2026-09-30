@@ -25,7 +25,7 @@ Les activités sont organisées en 4 catégories, chacune avec sa propre couleur
 |-----------|---------|-------------|
 | **Réflexion** | Rouge | Jeux de réflexion, énigmes, débats |
 | **Impulsion** | Vert | Activités spontanées, mime, danse |
-| **Intuition** | Bleu, Devinettes, imagination, émotions |
+| **Intuition** | Bleu | Devinettes, imagination, émotions |
 | **Création** | Jaune | Dessin, collage, invention, BD |
 
 Chaque activité indique :
