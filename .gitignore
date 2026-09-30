@@ -1,18 +1,27 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# macOS
+.DS_Store
+__MACOSX/
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
+# Xcode
+xcuserdata/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+build/
+*.moved-aside
+*.hmap
 *.ipa
-*.apk
+*.dSYM.zip
+*.dSYM
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Swift Package Manager
+.build/
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj/project.xcworkspace/xcshareddata/
+
+# IDE
+.idea/
+.vscode/
+*.swp
